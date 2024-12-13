@@ -1,0 +1,123 @@
+footer {
+  border-top: 1px solid rgba(21, 105, 99, 0.3);
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+.container__footer__mail {
+  width: 234px;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.container__footer__mail button {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 12px;
+  border: none;
+  border-radius: 2px;
+  background-color: #156963;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 14px;
+  cursor: pointer;
+}
+.container__footer__mail button:hover {
+  background-color: #11544f;
+}
+.container__footer__mail button:active {
+  border: 1px solid #156963;
+  background-color: transparent;
+  color: #156963;
+  transition: 0.1s;
+}
+
+label {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input {
+  padding: 8px 87px 8px 13px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  opacity: 0.5;
+  font-family: "Work Sans";
+  font-size: 12px;
+  line-height: 16px;
+  outline: none;
+}
+
+.container__footer {
+  width: 80.9931506849%;
+  padding-top: 60px;
+  padding-bottom: 71px;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container__footer__brand {
+  width: 282px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.container__footer__brand a {
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #156963;
+  font-family: "Poppins";
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.container__footer__brand_bottom {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.container__footer__brand_bottom h5 {
+  color: #333333;
+  line-height: 19px;
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 16px;
+}
+.container__footer__brand_bottom p {
+  color: #4f4f4f;
+  font-family: "Work Sans";
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.container__footer__developers {
+  width: 95px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container__footer__developers h5 {
+  line-height: 16px;
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 16px;
+}
+.container__footer__developers ul {
+  gap: 14px;
+  font-family: "Work Sans";
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=footer.css.map */
