@@ -1,0 +1,178 @@
+@media screen and (max-width: 1309.9px) {
+  .slider__content {
+    gap: 60px !important;
+  }
+  .slider__photo__plant {
+    width: 450px !important;
+    height: auto !important;
+  }
+  .slider__content__info h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .slider__content__info p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .slider__content__buttons button {
+    padding: 20px 30px !important;
+  }
+  .slider__content__buttons button .slider__content__buttons_white_bottom, .slider__content__buttons button .slider__content__buttons_green_bottom {
+    display: none;
+  }
+}
+@media screen and (max-width: 1088.9px) {
+  .slider__photo__plant, .slider__content__info, .slider__content__buttons {
+    display: none !important;
+  }
+}
+.slider__photo__logo {
+  padding-top: 40px;
+  padding-left: 56px;
+  position: absolute;
+  z-index: 1;
+  width: 36px;
+}
+
+.slider__photo__plant {
+  width: 573px;
+  height: 740px;
+}
+
+.slider__content {
+  justify-content: end;
+  gap: 110px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider__content__head {
+  padding-top: 40px;
+  padding-right: 56px;
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+}
+
+.slider__content__head__icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.slider__content__head__icons img {
+  cursor: pointer;
+  width: 20px;
+}
+
+.slider__content__head__buttons {
+  display: flex;
+  gap: 0;
+}
+.slider__content__head__buttons button {
+  border: none;
+  padding: 8px 33px;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.slider__content__head__buttons_white {
+  color: #156963;
+  background-color: white;
+}
+.slider__content__head__buttons_white:hover {
+  background-color: #f2f2f2;
+}
+.slider__content__head__buttons_white:active {
+  background-color: #e6e6e6;
+}
+
+.slider__content__head__buttons_green {
+  color: white;
+  background-color: #156963;
+}
+.slider__content__head__buttons_green:hover {
+  background-color: #11544f;
+}
+.slider__content__head__buttons_green:active {
+  background-color: #0d3f3b;
+}
+
+.slider__content__info {
+  width: 519px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.slider__content__info p {
+  color: rgba(44, 21, 0, 0.8);
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.slider__content__buttons {
+  display: flex;
+  justify-content: end;
+}
+.slider__content__buttons button {
+  border: none;
+  padding: 39px 49px 38px;
+  gap: 12px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+.slider__content__buttons button div {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.slider__content__buttons button div img {
+  width: 32px;
+}
+.slider__content__buttons button div span {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.slider__content__buttons_white {
+  background-color: white;
+}
+.slider__content__buttons_white:hover {
+  background-color: #f2f2f2;
+}
+.slider__content__buttons_white:active {
+  background-color: #e6e6e6;
+}
+.slider__content__buttons_white div span {
+  color: #333333;
+}
+
+.slider__content__buttons_white_bottom {
+  color: #156963;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.slider__content__buttons_green {
+  background-color: #156963;
+}
+.slider__content__buttons_green:hover {
+  background-color: #11544f;
+}
+.slider__content__buttons_green:active {
+  background-color: #0d3f3b;
+}
+.slider__content__buttons_green div span {
+  color: #f2f2f2;
+}
+
+.slider__content__buttons_green_bottom {
+  color: white;
+  font-size: 32px;
+  line-height: 39px;
+}/*# sourceMappingURL=slider.css.map */
