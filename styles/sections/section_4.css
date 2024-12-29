@@ -1,0 +1,72 @@
+@media screen and (max-width: 1221.9px) {
+  .invitation img {
+    display: none;
+  }
+  .invitation .invitation__content__link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .invitation .invitation__content__link h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 345.9px) {
+  .invitation__content__link h2 {
+    font-size: 20px !important;
+    line-height: 35px !important;
+  }
+  .invitation__content__link .invitation__content__link__button button {
+    font-size: 12px;
+    padding: 10px 35px;
+  }
+}
+.invitation {
+  background-color: #f3f4f6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.invitation img {
+  max-width: 37.5%;
+  height: auto;
+}
+
+.invitation__content {
+  width: 83.671875%;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.invitation__content__link {
+  width: 583px;
+  padding: 88px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.invitation__content__link__button button {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 42px;
+  border: none;
+  background-color: #156963;
+  color: #fafefe;
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.invitation__content__link__button button:hover {
+  background-color: #11544f;
+}
+.invitation__content__link__button button:active {
+  border: 1px solid #156963;
+  background-color: transparent;
+  color: #156963;
+  transition: 0.1s;
+}/*# sourceMappingURL=section_4.css.map */

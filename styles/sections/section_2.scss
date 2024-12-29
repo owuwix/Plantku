@@ -1,0 +1,127 @@
+$mainColor: #156963;
+$borderStyle: 1px solid #e0e0e0;
+$adaptability: auto;
+$deletion: none;
+$flexbox: flex;
+$wrap: wrap;
+
+@mixin horizontal {
+    display: $flexbox;
+    justify-content: space-between;
+}
+@mixin column {
+    display: $flexbox;
+    flex-direction: column;
+}
+@media screen and (max-width: 1276.9px) {
+    .assortment__goods {
+        li:nth-child(5) {
+            display: $deletion;
+        }
+    }
+}
+@media screen and (max-width: 1016.9px) {
+    .assortment__goods {
+        li:nth-child(4), li:nth-child(5) {
+            display: $deletion;
+        }
+    }
+}
+@media screen and (max-width: 756.9px) {
+    .assortment__goods {
+        li:nth-child(3), li:nth-child(4), li:nth-child(5) {
+            display: $deletion;
+        }
+    }
+}
+@media screen and (max-width: 496.9px) {
+    .assortment__goods {
+        li:nth-child(1) {
+            width: 100%;
+        }
+        li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5) {
+            display: $deletion;
+        }
+    }
+}
+@media screen and (max-width: 339.9px) {
+    .assortment__head {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.assortment {
+    gap: 24px;
+
+    @include column();
+}
+.assortment__head {
+    padding-bottom: 16px;
+    border-bottom: $borderStyle;
+    flex-wrap: $wrap;
+    gap: 20px;
+
+    @include horizontal();
+
+    select {
+        width: $adaptability;
+        padding: 8px 24px 8px 12px;
+        appearance: $deletion;
+        outline: $deletion;
+        cursor: pointer;
+        background: url(../../images/icons/select_list.png) no-repeat right;
+        background-size: 12px;
+        border: $borderStyle;
+    }
+}
+.assortment__goods {
+    ul {
+        width: 100%;
+        flex-wrap: $wrap;
+        gap: 20px;
+
+        @include horizontal();
+
+        li {
+            align-items: center;
+            gap: 18px;
+
+            @include column();
+
+            img {
+                max-width: 217px;
+                height: $adaptability;
+            }
+        }
+    }
+}
+.assortment__goods__item {
+    gap: 16px;
+
+    @include column();
+}
+.assortment__goods__item__info {
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+
+    @include column();
+
+    a {
+        color: black;
+        text-decoration: $deletion;
+
+        &:hover {
+            color: $mainColor;
+        }
+        &:active {
+            color: darken($mainColor, 5%);
+        }
+    }
+    span {
+        font-weight: 600;
+    }
+}

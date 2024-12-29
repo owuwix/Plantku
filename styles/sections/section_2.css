@@ -1,0 +1,102 @@
+@media screen and (max-width: 1276.9px) {
+  .assortment__goods li:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 1016.9px) {
+  .assortment__goods li:nth-child(4), .assortment__goods li:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 756.9px) {
+  .assortment__goods li:nth-child(3), .assortment__goods li:nth-child(4), .assortment__goods li:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 496.9px) {
+  .assortment__goods li:nth-child(1) {
+    width: 100%;
+  }
+  .assortment__goods li:nth-child(2), .assortment__goods li:nth-child(3), .assortment__goods li:nth-child(4), .assortment__goods li:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 339.9px) {
+  .assortment__head {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.assortment {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.assortment__head {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.assortment__head select {
+  width: auto;
+  padding: 8px 24px 8px 12px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  cursor: pointer;
+  background: url(../../images/icons/select_list.png) no-repeat right;
+  background-size: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.assortment__goods ul {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.assortment__goods ul li {
+  align-items: center;
+  gap: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.assortment__goods ul li img {
+  max-width: 217px;
+  height: auto;
+}
+
+.assortment__goods__item {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.assortment__goods__item__info {
+  align-items: center;
+  gap: 8px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.assortment__goods__item__info a {
+  color: black;
+  text-decoration: none;
+}
+.assortment__goods__item__info a:hover {
+  color: #156963;
+}
+.assortment__goods__item__info a:active {
+  color: #11544f;
+}
+.assortment__goods__item__info span {
+  font-weight: 600;
+}/*# sourceMappingURL=section_2.css.map */
