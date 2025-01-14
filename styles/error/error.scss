@@ -1,0 +1,63 @@
+@media screen and (max-width: 576px) {
+    .logo {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
+
+button {
+    color: white;
+    background-color: #156963;
+    border: none;
+    padding: 8px 33px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    &:hover {
+        background-color: darken(#156963, 5%);
+    }
+    &:active {
+        background-color: darken(#156963, 10%);
+    }
+}
+.logo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 56px;
+    margin-right: 56px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: #156963;
+    }
+    hr {
+        color: #156963;
+        width: 100%;
+    }
+}
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2c1500;
+    font-family: 'Poppins';
+
+    h1 {
+        font-size: 63px;
+        line-height: 83px;
+    }
+    span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
